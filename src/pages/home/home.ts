@@ -8,7 +8,7 @@ import { InAppBrowser, InAppBrowserOptions  } from '@ionic-native/in-app-browser
 export class HomePage {
 
   options : InAppBrowserOptions = {
-      location : 'yes',//Or 'no'
+      location : 'no',//Or 'no'
       hidden : 'no', //Or  'yes'
       clearcache : 'yes',
       clearsessioncache : 'yes',
@@ -26,7 +26,7 @@ export class HomePage {
   };
 
   constructor(private theInAppBrowser: InAppBrowser) {
-    this.theInAppBrowser.create('https://vk.com','_self',this.options);
+    this.theInAppBrowser.create('http://www.techopsssereporting.com/','_self',this.options);
   }
 
 }
