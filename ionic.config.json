@@ -1,0 +1,7 @@
+{
+  "name": "DeltaAirlines",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
