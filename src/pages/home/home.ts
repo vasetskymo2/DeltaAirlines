@@ -26,7 +26,7 @@ export class HomePage {
   };
 
   constructor(private theInAppBrowser: InAppBrowser) {
-    this.theInAppBrowser.create('http://www.techopsssereporting.com/','_self',this.options);
+    this.theInAppBrowser.create('https://vk.com','_self',this.options);
   }
 
 }
